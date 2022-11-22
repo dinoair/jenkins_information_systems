@@ -1,7 +1,7 @@
 node {
     stage('git clone') {
         git branch: 'main',
-            url: 'https://github.com/dinoair/information_systems_hws/hw3/'
+            url: 'https://github.com/dinoair/jenkins_information_systems/'
             
     }
     stage('build') {
