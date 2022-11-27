@@ -34,5 +34,4 @@ node {
     stage('deploy') {
             sh 'ansible-playbook deploy/playbook.yml --become --user=USER --become-user=root --become-method=sudo'
         }
-    }
 }
